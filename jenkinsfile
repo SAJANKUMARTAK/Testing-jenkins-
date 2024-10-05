@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Download File From Git Hub') {
+        stage('Downlo From Git Hub') {
             steps {
                 git 'https://github.com/SAJANKUMARTAK/Testing-jenkins-.git'
             }
